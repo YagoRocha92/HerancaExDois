@@ -25,7 +25,7 @@ namespace HerancaExDois.Entities
 
         public override string? ToString()
         {
-            return "Nome " + Nome + ", CPF " + Cpf + ", valor da Bonificação "  + Bonificacao.ToString("F2");
+            return "Colaborador " + Nome + ", CPF n° " + Cpf + ", valor da sua Bonificação é R$"  + Bonificacao.ToString("F2");
         }
     }
 }

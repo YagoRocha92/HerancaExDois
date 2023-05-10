@@ -27,8 +27,8 @@ namespace HerancaExDois.Entities
         }
         public override string? ToString()
         {
-            return "Nome " + Nome + ", CPF " + Cpf + ", valor da hora trabalhada " + ValorHora.ToString("F2") +
-                " quantidade de horas " + HorasTrabalhadas;
+            return "Colaborador " + Nome + ", CPF n° " + Cpf + ", valor da hora trabalhada R$" + ValorHora.ToString("F2") +
+                " e a quantidade de horas nesse mês foi de " + HorasTrabalhadas + " horas";
         }
     }
 }

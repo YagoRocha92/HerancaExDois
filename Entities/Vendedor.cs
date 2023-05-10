@@ -29,8 +29,8 @@ namespace HerancaExDois.Entities
 
         public override string? ToString()
         {
-            return "Nome " + Nome + ", CPF " + Cpf + ", valor da comissão " + Comissao.ToString("F2") + 
-                " quantidade de vendas " + NumeroVendas;
+            return "Colaborador " + Nome + ", CPF n° " + Cpf + ", e o valor da sua comissão é R$" + Comissao.ToString("F2") + 
+                " realizou um total de " + NumeroVendas + " vendas";
         }
     }
 }

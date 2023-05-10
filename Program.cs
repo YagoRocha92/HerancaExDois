@@ -17,7 +17,7 @@ namespace HerancaExDois
             Console.WriteLine();
             Console.WriteLine("Vendedor");
             Console.WriteLine(empregado);
-            Console.WriteLine("Salario a receber R$ " + empregado.CalcularSalario().ToString("F2"));
+            Console.WriteLine("Salario a receber R$" + empregado.CalcularSalario().ToString("F2"));
 
             Console.WriteLine();
             ControlePonto meuControleVendedor = new ControlePonto();
@@ -26,7 +26,7 @@ namespace HerancaExDois
             Console.WriteLine();
             Console.WriteLine("Consultor");
             Console.WriteLine(empregadoConsultor);
-            Console.WriteLine("Salario a receber R$ " + empregadoConsultor.CalcularSalario().ToString("F2"));
+            Console.WriteLine("Salario a receber R$" + empregadoConsultor.CalcularSalario().ToString("F2"));
 
             Console.WriteLine();
             ControlePonto meuControleConsultor = new ControlePonto();
@@ -37,7 +37,7 @@ namespace HerancaExDois
             Console.WriteLine();
             Console.WriteLine("Gerente");
             Console.WriteLine(empregadoGerente);
-            Console.WriteLine("Salario a receber R$ " + empregadoGerente.CalcularSalario().ToString("F2"));
+            Console.WriteLine("Salario a receber R$" + empregadoGerente.CalcularSalario().ToString("F2"));
 
             Console.WriteLine();
             ControlePonto meuControle = new ControlePonto();
